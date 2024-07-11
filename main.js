@@ -68,7 +68,7 @@ function onDocumentMouseDown(event) {
 
   raycaster.setFromCamera(mouse, camera);
 
-  const intersects = raycaster.intersectObject(shiba, true); // Utiliser intersectObject au lieu de intersectObjects
+  const intersects = raycaster.intersectObject(shiba, true); 
 
   if (intersects.length > 0) {
       isAnimating = true;
